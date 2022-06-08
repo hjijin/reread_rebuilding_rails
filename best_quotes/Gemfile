@@ -1,5 +1,5 @@
 # best_quotes/Gemfile
 source 'https://rubygems.org'
-gem 'rulers'
+gem 'rulers', path: '../rulers'
 
 gem 'puma', '~> 5.6', '>= 5.6.4'

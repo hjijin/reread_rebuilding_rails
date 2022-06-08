@@ -1,3 +1,9 @@
+PATH
+  remote: ../rulers
+  specs:
+    rulers (0.1.3)
+      rack (~> 2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -5,15 +11,13 @@ GEM
     puma (5.6.4)
       nio4r (~> 2.0)
     rack (2.2.3.1)
-    rulers (0.1.3)
-      rack (~> 2.2)
 
 PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
   puma (~> 5.6, >= 5.6.4)
-  rulers
+  rulers!
 
 BUNDLED WITH
    2.3.14
