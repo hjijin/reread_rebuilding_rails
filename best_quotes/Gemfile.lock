@@ -3,7 +3,7 @@ PATH
   specs:
     rulers (0.1.3)
       erubis (~> 2.7)
-      multi_json
+      multi_json (~> 1.15)
       rack (~> 2.2)
       rack-test (~> 1.1)
 
